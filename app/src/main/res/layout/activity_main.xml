@@ -52,6 +52,19 @@
         android:textSize="32sp"
         android:textStyle="bold" />
 
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_LBL_countryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COUNTRY!!!!!"
+        android:layout_above="@id/main_IMG_flag"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        />
+
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/main_IMG_flag"
         android:layout_width="280dp"
